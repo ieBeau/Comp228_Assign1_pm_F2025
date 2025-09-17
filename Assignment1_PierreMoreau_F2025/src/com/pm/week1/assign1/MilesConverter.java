@@ -14,7 +14,7 @@ public class MilesConverter {
         int miles = scanner.nextInt();
 
         double kilometers = miles * conversion;
-        System.out.printf("\n%d miles is converted to %.2f kilometers.\n", miles, kilometers);
+        System.out.printf("\n%d miles = %.2f kilometers\n", miles, kilometers);
 
         scanner.close();
     }

@@ -28,7 +28,6 @@ public class GradeCalculation {
         else if (average >= 50) grade = 'D';
         else grade = 'F';
 
-        System.out.printf("\nYour average: %.2f", average);
         System.out.printf("\nYour grade: %c", grade);
 
         scanner.close();

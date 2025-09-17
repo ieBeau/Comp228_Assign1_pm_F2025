@@ -18,9 +18,9 @@ public class DriverMain {
 		LitersConverter lc = new LitersConverter();
 
 		CurrencyConverter cc = new CurrencyConverter();
-		
-		System.out.println("\nList of Operations:\n1) Grade Calculation\n2) Miles to Kilometers\n3) Liters to Gallons\n4) Currency Conversion");
-		
+
+		System.out.println("\nList of Operations:\n  1) Grade Calculation\n  2) Miles to Kilometers\n  3) Liters to Gallons\n  4) Currency Conversion");
+
 		try (Scanner scanner = new Scanner(System.in)) {
 			
 			System.out.print("\nEnter your choice: ");

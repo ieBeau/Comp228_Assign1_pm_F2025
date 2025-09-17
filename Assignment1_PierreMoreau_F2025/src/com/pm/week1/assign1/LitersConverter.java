@@ -10,11 +10,11 @@ public class LitersConverter {
 
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("\nLiters: ");
+        System.out.print("\nEnter liters: ");
         int liters = scanner.nextInt();
 
         double gallons = liters * conversion;
-        System.out.printf("\n%d liters is converted to %.2f gallons.\n", liters, gallons);
+        System.out.printf("\n%d liters = %.2f gallons\n", liters, gallons);
 
         scanner.close();
     }

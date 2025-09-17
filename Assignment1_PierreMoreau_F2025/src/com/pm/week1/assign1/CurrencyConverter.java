@@ -13,7 +13,7 @@ public class CurrencyConverter {
         double cad = scanner.nextDouble();
 
         double usd = cad * exchangeRate;
-        System.out.printf("\n$%.2f CAD is converted to $%.2f USD.\n", cad, usd);
+        System.out.printf("\n$%.2f CAD = $%.2f USD\n", cad, usd);
 
         scanner.close();
     }
